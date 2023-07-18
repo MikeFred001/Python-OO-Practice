@@ -32,9 +32,10 @@ class SerialGenerator:
         else:
             self.current_num += 1
             return self.current_num
-
-
+# Increment self.current, return new value - 1
     def reset(self):
         """Reset the number back to the original start"""
         self.current_num = self.start
         self.firstGeneration = True
+
+# fix camelCase
